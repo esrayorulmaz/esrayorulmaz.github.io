@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Kim demiş gül yaşar dikenin himayesinde? Dikenin itibarı gül himayesinde! (Hz. Mevlana Celaleddin Rumi)
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Ben Kim miyim?..
 
-### Contact me
+Ondokuz Mayıs Üniversitesi Bilgisayar Nühendisliği Bölümü mezunu,
+Radyolojik Bilimler Yuksek lisans Öğrencisi..
+Yazılımda arastırıp debelenmeyi seven,  Araştırdıkça, öğrendikçe not alan ve bunları paylaşmayı seven..
 
-[email@domain.com](mailto:email@domain.com)
+##Mailim:
+
+[esra.yorulmaz@bil.omu.edu.tr](mailto:esra.yorulmaz@bil.omu.edu.tr)
