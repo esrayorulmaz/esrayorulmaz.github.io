@@ -13,6 +13,6 @@ Ondokuz Mayıs Üniversitesi Bilgisayar Nühendisliği Bölümü mezunu,
 Radyolojik Bilimler Yuksek lisans Öğrencisi..
 Yazılımda arastırıp debelenmeyi seven,  Araştırdıkça, öğrendikçe not alan ve bunları paylaşmayı seven..
 
-##Mailim:
+Mailim:
 
 [esra.yorulmaz@bil.omu.edu.tr](mailto:esra.yorulmaz@bil.omu.edu.tr)
