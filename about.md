@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ...
+title: hakkımda
 permalink: /about/
 ---
 
