@@ -16,35 +16,55 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <!-- Title --><span class="mdl-layout-title"><a href="{{ site.baseurl }}/">{{ site.name }}</a></span>
 
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation. We hide it in small screens. -->
+      <nav class="mdl-navigation mdl-layout--large-screen-only">
+      <a class="mdl-navigation__link" href="{{ site.baseurl }}/about">İletişim</a>
+      {% include svg-icons.html %}
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h3 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h3>
             <p class="site-description">{{ site.description }}</p>
           </div>
+    </span>
+    <nav class="mdl-navigation">
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+      <a class="mdl-navigation__link" href="{{ site.baseurl }}">Rails</a>
+      <a class="mdl-navigation__link" href="">Matlab</a>
+      <a class="mdl-navigation__link" href="">Visual Studio</a>
+      <a class="mdl-navigation__link" href="">Veri Tabanı</a>
+      <a class="mdl-navigation__link" href="">Entity Framework</a>
+      <a class="mdl-navigation__link" href="">Wpf</a>
+      <a class="mdl-navigation__link" href="">Simple Mvvm</a>
+       <a class="mdl-navigation__link" href="">Telerik</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+        <div id="main" role="main" >
+          <div class="container">
+            {{ content }}
+          </div>
+       </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+  </main>
+</div>
+    
+
+  
+
+
 
     {% include analytics.html %}
   </body>
