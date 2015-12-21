@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Merhaba Dünyaa
+category: general
 ---
 
 
