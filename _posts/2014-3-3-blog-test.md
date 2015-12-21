@@ -19,8 +19,4 @@ blog çalısıyor mu test 1-2
    } 
 ```
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+
