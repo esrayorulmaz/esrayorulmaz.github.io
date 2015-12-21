@@ -1,6 +1,6 @@
 ---
-layout: category
-title: visul ilk kayıt
+layout: post
+title: visual studio ilk kayıt
 category: visualstudio
 ---
 
