@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Merhaba Dünyaa
-categories: rails
 ---
 
 
