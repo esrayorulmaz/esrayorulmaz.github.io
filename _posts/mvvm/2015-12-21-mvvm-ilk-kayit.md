@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: post
 title: mvvm ilk kayit
 category: mvvm
 ---
