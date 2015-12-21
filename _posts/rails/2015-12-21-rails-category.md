@@ -1,6 +1,6 @@
 ---
 layout: category
-title: rails Category
+title: category işlemi
 category: rails
 ---
 
